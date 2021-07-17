@@ -1,0 +1,10 @@
+RewriteEngine on  
+  
+RewriteRule ^ABOUT  firstpage.php [NC,L]
+RewriteRule ^DETAILS  userdash.php [NC,L]
+RewriteRule ^INSTRUCTION  myfile.php [NC,L]
+
+#RewriteEngine On
+#RewriteCond %{SERVER_PORT} 80
+#RewriteCond %{HTTP_HOST} ^(www\.)?aiolympiad.fizrobotics.com
+#RewriteRule ^(.*)$ https://www.aiolympiad.fizrobotics.com/$1 [R,L]
